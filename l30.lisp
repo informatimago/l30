@@ -4,7 +4,7 @@
 
 
 #|
-1. How to find missing number in integer vector of 1 to 100? 
+1. How to find missing number in integer vector of 1 to 100?
 
 You have given an integer vector which contains numbers from 1 to 100
 but one number is missing, you need to write a Lisp program to find
@@ -30,9 +30,9 @@ missing number.
 (assert (equalp (missing-integer #(1 2 3 5 6))  4))
 
 
-        
+
 #|
-2. How to find duplicate number on Integer vector in Lisp? 
+2. How to find duplicate number on Integer vector in Lisp?
 
 An vector contains n numbers ranging from 0 to n-2.  There is exactly
 one number is repeated in the vector.  You need to write a program to
@@ -57,7 +57,7 @@ of series to find out that duplicate.
 
 
 #|
-3. How to check if vector contains a number in Lisp? 
+3. How to check if vector contains a number in Lisp?
 
 Another interesting vector problem, because vector doesn't provide any
 builtin method to check if any number exists or not.  This problem is
@@ -121,7 +121,7 @@ When (< (aref vector (1- (length vector))) n) the results are (length vector) ni
 
 
 #|
-4. How to find largest and smallest number in unsorted vector? 
+4. How to find largest and smallest number in unsorted vector?
 
 You have given an unsorted integer vector and you need to find the
 largest and smallest element in the vector.  Of course you can sort
@@ -151,7 +151,7 @@ index is O(1) operation.
          )
 
 #|
-5. How to find all pairs on integer vector whose sum is equalp to given number? 
+5. How to find all pairs on integer vector whose sum is equalp to given number?
 
 This is an intermediate level of vector coding question, its neither
 too easy nor too difficult.  You have given an integer vector and a
@@ -179,7 +179,7 @@ testing is always expected from a professional developer.
 
 
 #|
-6. How to find repeated numbers in an vector if it contains multiple duplicate? 
+6. How to find repeated numbers in an vector if it contains multiple duplicate?
 
 This is actually the follow-up question of problem 2, how to find
 duplicate number on integer vector.  In that case, vector contains only
@@ -210,7 +210,7 @@ characters in given String.
 
 
 #|
-7. Write a program to remove duplicates from vector in Lisp? 
+7. Write a program to remove duplicates from vector in Lisp?
 
 This is another follow-up question from problem 2 and 6.  You have
 given an vector which contains duplicates, could be one or more.  You
@@ -241,7 +241,7 @@ program should return an vector which contains just {1, 2, 3, 4,
 
 
 #|
-8. How to sort an vector in place using QuickSort algorithm? 
+8. How to sort an vector in place using QuickSort algorithm?
 
 You will often see sorting problems on vector related questions,
 because sorting mostly happen on vector data structure.  You need to
@@ -254,7 +254,7 @@ must sort vector in place.
 
 
 #|
-9. Write a program to find intersection of two sorted vector in Lisp? 
+9. Write a program to find intersection of two sorted vector in Lisp?
 
 Another interesting vector interview question, where you need to treat
 vector as Set.  Your task is to write a function in your favorite
@@ -294,7 +294,7 @@ you can assume that numbers in each integer vector are unique.
 
 
 #|
-10. There is an vector with every element repeated twice except one.  Find that element? 
+10. There is an vector with every element repeated twice except one.  Find that element?
 
 This is an interesting vector coding problem, just opposite of question
 related to finding duplicates in vector.  Here you need to find the
@@ -322,7 +322,7 @@ is {1, 1, 2, 2, 3, 4, 4, 5, 5} then your program should return
 
 
 #|
-11. How to find kth smallest element in unsorted vector? 
+11. How to find kth smallest element in unsorted vector?
 
 You are given an unsorted vector of numbers and k, you need to find the
 kth smallest number in the vector.  For example if given vector is {1, 2,
@@ -371,7 +371,7 @@ you can solve many similar questions easily e.g.  our next question.
 (assert (equalp (kth-smallest-element #(49 64 1 2 24 5 33 42 72 11 96) 100) 96)) ; feature.
 
 #|
-12. How to find kth largest element in unsorted vector? 
+12. How to find kth largest element in unsorted vector?
 
 This problem is exactly same as previous question with only difference
 being finding kth largest element instead of kth smallest number.  For
@@ -394,7 +394,7 @@ question on Lisp interviews with 2 to 3 years experienced guys.
 
 
 #|
-13. How to find common elements in three sorted vector? 
+13. How to find common elements in three sorted vector?
 
 Now we are coming on territory of tough vector questions.  Given three
 vectors sorted in non-decreasing order, print all common elements in
@@ -479,7 +479,7 @@ Output: 20, 80
 
 
 #|
-14. How find the first repeating element in an vector of integers? 
+14. How find the first repeating element in an vector of integers?
 
 Given an vector of integers, find the first repeating element in it.  We
 need to find the element that occurs more than once and whose index of
@@ -512,7 +512,7 @@ Output: 5 [5 is the first element that repeats]
 
 
 #|
-15. How to find first non-repeating element in vector of integers? 
+15. How to find first non-repeating element in vector of integers?
 
 This vector interview question is exactly opposite of previous problem,
 In that you need to find first repeating element while in this you
@@ -542,7 +542,7 @@ repeating element though.
 
 
 #|
-16. How to find top two numbers from an integer vector? 
+16. How to find top two numbers from an integer vector?
 
 This is another one of the easy vector questions you will find on
 telephonic round of Interviews, but its also little bit tricky.  You
@@ -554,7 +554,7 @@ at solution.
 
 
 #|
-17. How to find the smallest positive integer value that cannot be represented as sum of any subset of a given vector? 
+17. How to find the smallest positive integer value that cannot be represented as sum of any subset of a given vector?
 
 This is another tough vector question you will see on Amazon, Microsoft
 or Google.  You have given a sorted vector (sorted in non-decreasing
@@ -569,7 +569,7 @@ Input: {1, 3, 6, 10, 11, 15};
 Output: 2
 
 
-18. How to rearrange vector in alternating positive and negative number? 
+18. How to rearrange vector in alternating positive and negative number?
 
 Given an vector of positive and negative numbers, arrange them in an
 alternate fashion such that every positive number is followed by
@@ -580,7 +580,7 @@ more negative numbers, they too appear in the end of the vector.  This
 is also a difficult vector problem to solve and you need lot of
 practice to solve this kind of problems in real interviews, especially
 when you see it first time.  If you have time constraint then always
-attempt these kind of questions once you are done with easier ones.  
+attempt these kind of questions once you are done with easier ones.
 
 Example:
 
@@ -588,10 +588,10 @@ Input: {1, 2, 3, -4, -1, 4}
 Output: {-4, 1, -1, 2, 3, 4}
 
 Input: {-5, -2, 5, 2, 4, 7, 1, 8, 0, -8}
-output: {-5, 5, -2, 2, -8, 4, 7, 1, 8, 0} 
+output: {-5, 5, -2, 2, -8, 4, 7, 1, 8, 0}
 
 
-19. How to find if there is a sub vector with sum equal to zero? 
+19. How to find if there is a sub vector with sum equal to zero?
 
 There is whole set of vector related questions which are based upon
 sub-vector or only selective elements of vector e.g.  from some range,
@@ -601,10 +601,10 @@ and negative numbers, find if there is a sub-vector with 0 sum.
 Examples:
 
 Input: {4, 2, -3, 1, 6}
-Output: true 
+Output: true
 There is a sub-vector with zero sum from index 1 to 3.
 
-20. How to remove duplicates from vector in place? 
+20. How to remove duplicates from vector in place?
 
 Given a sorted vector, remove the duplicates in place such that each
 element appear only once and return the new length.
@@ -615,24 +615,24 @@ place with constant memory.
 For example,
 Given input vector A = [1,1,2],
 
-Your function should return length = 2, and A is now [1,2].  
+Your function should return length = 2, and A is now [1,2].
 
 When you see a questions which asked you do to sorting or task in
 place, it means you cannot use additional vector or buffer, but using
 couple of variables is fine.
 
 
-21. How to remove a given element from vector in Lisp? 
+21. How to remove a given element from vector in Lisp?
 
 This is another vector coding questions similar to previous one.  Here
 you don't have to find and remove duplicates but a given number.  In
 this problem you are given an vector and a value, remove all instances
 of that value in place and return the new length.  The order of
 elements can be changed.  It doesn't matter what you leave beyond the
-new length.  
+new length.
 
 
-22. How to merge sorted vector? 
+22. How to merge sorted vector?
 
 Given two sorted integer vectors A and B, merge B into A as one sorted
 vector.  You may assume that A has enough space (size that is greater or
@@ -643,29 +643,29 @@ previous one but neither very difficult.
 
 
 23. How to find sub vector with maximum sum in an vector of positive and
-negative number? 
+negative number?
 
 Another vector coding question based upon sub-vector.  Here you have to
 find the contiguous sub-vector within an vector (containing at least one
 number) which has the largest sum.
 
 For example, given the vector [−2,1,−3,4,−1,2,1,−5,4],
-the contiguous subvector [4,−1,2,1] has the largest sum = 6.  
+the contiguous subvector [4,−1,2,1] has the largest sum = 6.
 
 
 24. How to find sub vector with largest product in vector of both
-positive and negative number?  
+positive and negative number?
 
 In this problem, your task is to write a program in Lisp or C++ to
 find the contiguous sub-vector within an vector (containing at least one
 number) which has the largest product.
 
 For example, given the vector [2,3,-2,4],
-the contiguous subvector [2,3] has the largest product = 6.  
+the contiguous subvector [2,3] has the largest product = 6.
 
 
 25. Write a program to find length of longest consecutive sequence in
-vector of integers? 
+vector of integers?
 
 Given an unsorted vector of integers, find the length of the longest
 consecutive elements sequence.
@@ -677,10 +677,10 @@ The longest consecutive elements sequence is [1, 2, 3, 4].  Return its
 length: 4.
 
 Challenging part of this question is that your algorithm should run in
-O(n) complexity.  
+O(n) complexity.
 
 
-26. How to find minimum value in a rotated sorted vector? 
+26. How to find minimum value in a rotated sorted vector?
 
 This is  another advanced level  vector coding question and  you should
 only attempt this one, once you have solved the easier ones.  Suppose a
@@ -695,7 +695,7 @@ question of this question is What if duplicates are allowed? Would
 this affect the run-time complexity? How and why?
 
 
-27. Given an vector of of size n and a number k, find all elements that appear more than n/k times? 
+27. Given an vector of of size n and a number k, find all elements that appear more than n/k times?
 
 Another tough vector based coding questions from Interviews.  You are
 given an vector of size n, find all elements in vector that appear more
@@ -717,7 +717,7 @@ than two times, 2 and 3.
 
 
 #|
-28.  How to reverse vector in place in Lisp? 
+28.  How to reverse vector in place in Lisp?
 
 Now let's see one of the most frequently asked vector interview
 question.  You need to write a program which accepts an integer vector
@@ -744,7 +744,7 @@ directly solve this problem, you need to create your own logic.
 
 
 #|
-29.  Difference between vector and linked list data structure? 
+29.  Difference between vector and linked list data structure?
 
 This is a theoretical questions from phone interviews.  There are
 several differences between vector and linked list e.g.  vector stores
@@ -757,7 +757,7 @@ in linked list you need to search an element by traversing which is
 O(n) operation.
 
 
-30.  How to check if vector contains a duplicate number? 
+30.  How to check if vector contains a duplicate number?
 
 This may look a repeated question because we have already done similar
 question, but in this question, most from Lisp interviews, you need to
